@@ -13,7 +13,7 @@ export default function Footer() {
           {emoji("Made @22")}
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Theme by{" "}
+          Theme by{"https://github.com/CallmeAstitva "}
           <a href="">
             Astitva Choubey
           </a>
