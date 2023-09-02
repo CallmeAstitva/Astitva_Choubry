@@ -34,7 +34,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/CallmeAstitva",
-  linkedin: "hwww.linkedin.com/in/astitva-choubey",
+  linkedin: "https://www.linkedin.com/in/astitva-choubey-595003190/",
   gmail: "astitvachoubey@gmail.com",
   gitlab: "",
   facebook: "",
@@ -89,8 +89,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "CPP",
+      fontAwesomeClassname: "fa-duotone fa-code"
     },
     {
       skillName: "npm",
@@ -109,8 +109,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Java",
+      fontAwesomeClassname: "fa-brands fa-java"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -220,59 +220,41 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Profiles and standings 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Everything about my CP journey.",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "CodeChef 4*",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Following the passion of CP ,participating in contests and learning from every one of them. A crazy journey.",
+      image: require("./assets/images/cf.png"),
+      imageAlt: "codechef",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "CodeChef Profile",
+          url: "https://www.codechef.com/users/mill_coder07"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Leet Code",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Tried to understand DSA in depth, loved every second of it.",
+      image: require("./assets/images/LC.png"),
+      imageAlt: "Leet code",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "LeetCode profile",
+          url: "https://leetcode.com/gg_itz_Astitva/"
         }
       ]
     },
 
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
+   
+      
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
