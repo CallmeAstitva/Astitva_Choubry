@@ -163,7 +163,7 @@ const workExperiences = {
     {
       role: "Software Engineer intern",
       company: "Krayo",
-      companylogo: require("./assets/images/krayo.png"),
+      companylogo: require("./assets/images/krayo.jpg"),
       date: "April 2022 – July 2022",
       desc: "krayo: Interned as a SWE, Designed a system to populate database by crawling sites through a secure and optimal API route resulting in increasing of data base size by 500%. Led a team of interns to bring out modularity and consistency in code base by creating a library.Worked in designing of dashboard listing SAAS apps.Skills",
       descBullets: [
