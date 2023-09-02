@@ -90,7 +90,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "CPP",
-      fontAwesomeClassname: "fa-duotone fa-code"
+      fontAwesomeClassname: "fab fa-code"
     },
     {
       skillName: "npm",
@@ -110,7 +110,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Java",
-      fontAwesomeClassname: "fa-brands fa-java"
+      fontAwesomeClassname: "fab fa-java"
     }
   ],
   display: true // Set false to hide this section, defaults to true
